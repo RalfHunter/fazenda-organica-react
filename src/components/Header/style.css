@@ -10,8 +10,10 @@
 }
 
 .container {
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
     padding: 20px;
+    margin: 0 auto;
 
 }
 .menu {
@@ -35,9 +37,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    background-image: url("./../../../public/Milharal.png");
+    background-image: url('/Milharal.png');
     height: 500px;
-    width: 1920px;
+    width: 100%;
+    max-width: 1920px;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -54,4 +57,6 @@
 }
 .milharal img {
     margin-top: 60px;
+    max-width: 100%;
+    height: auto;
 }
