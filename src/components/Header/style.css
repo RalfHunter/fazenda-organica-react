@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header-fundo-menu {
+    display: flex;
+    background-color: #1B4436;
+    justify-content: center;
+}
+
+.container {
+    width: 1440px;
+    padding: 20px;
+
+}
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover {
+    color: yellow;
+    font-weight: 900;
+    transition: 0.3s;
+}
+
+.milharal {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url("./../../../public/Milharal.png");
+    height: 500px;
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items:center;
+    gap: 80px;
+}
+.milharal div {
+    font-size: 70px;
+    background-color: #225243CC;
+    font-weight: 700;
+    /* padding: 10px; */
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.milharal img {
+    margin-top: 60px;
+}

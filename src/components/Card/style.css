@@ -1,0 +1,45 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 387px;
+    border: 1px solid #50AA5A;
+    border-radius: 20px;
+}
+.topo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topo h2 {
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 1px 5px 5px white;
+}
+.topo img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    max-height: 248px;
+    width: 100%;
+}
+.baixo {
+    padding: 10px;
+}
+.botao {
+    text-align: center;
+    background-color: #50AA5A;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    padding: 10px;
+}
+.botao a {
+    text-decoration: none;
+    color: white;
+}
+.botao a:hover {
+    font-weight: 500;
+    color: yellow;
+    transition: 0.3s;
+}
